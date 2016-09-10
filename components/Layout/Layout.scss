@@ -1,0 +1,64 @@
+@import '../variables.scss';
+@import '../mixins.scss';
+@import '../animations.scss';
+
+html, body {
+	margin: 0;
+	padding: 0;
+	color: $text-color;
+	font-family: $font-family-base;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.Layout {
+	margin: calc($baseline-height * 9) auto calc($baseline-height * 15) auto;
+	max-width: $page-width;
+}
+
+article {
+	animation-name: fade;
+	animation-duration: 0.5s;
+ 	animation-fill-mode: both;
+ 	opacity: 0;
+}
+
+p, h1, h2 {
+	font-size: $font-size-base;
+	font-weight: 300;
+	line-height: $line-height-base;
+	@mixin grid 2, 12;
+
+	@media (max-width: $page-width) {
+    	@mixin grid 1.5, 13;
+  	}
+}
+
+h2 {
+	color: #000;
+	display: inline-block;
+	margin-top: calc($baseline-height * 2);
+	margin-bottom: calc($baseline-height * 2.5);
+	border-bottom: 1px solid $text-color;
+}
+
+a {
+	text-decoration: none;
+	color: $link-color;
+	font-style: italic;
+	transition: color 0.2s;
+
+	&:hover {
+		color: color($link-color lightness(- 20%));
+	}
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: calc($baseline-height * 2);
+
+	strong {
+		color: #000;
+		font-weight: 300;
+	}
+}

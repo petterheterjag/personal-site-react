@@ -1,0 +1,28 @@
+@import '../variables.scss';
+@import '../mixins.scss';
+
+.Image {
+  margin-top: calc($baseline-height * 3);
+  margin-bottom: calc($baseline-height * 2.5);
+  background-color: #f7fbfa;
+  line-height: 0;
+  border-radius: 2px;
+  overflow: hidden;
+  min-height: 24px;
+
+  img {
+    width: 100%;
+
+    &.large {
+      @mixin grid 0, 16;
+    }
+
+    &.small {
+      @mixin grid 2, 12;
+    }
+  }
+
+  @media (max-width: $page-width) {
+    border-radius: 0px;
+  }
+}

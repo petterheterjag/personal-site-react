@@ -1,0 +1,9 @@
+@import '../variables.scss';
+
+.Header {
+  margin-bottom: calc($baseline-height * 3);
+
+  &-title {
+    display: block;
+  }
+}

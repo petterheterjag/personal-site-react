@@ -1,0 +1,28 @@
+@import '../variables.scss';
+@import '../animations.scss';
+
+.Portrait {
+	position: relative;
+	line-height: 0;
+	margin-bottom: calc($baseline-height * 3);
+	border-radius: 2px;
+	overflow: hidden;
+	background-color: #f7fbfa;
+
+	&-image {
+		width: 100%;
+		margin: 0;
+	}
+
+	&-overlay {
+		width: 100%;
+		margin: 0;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+
+	@media (max-width: $page-width) {
+		border-radius: 0px;
+	}
+}

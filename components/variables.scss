@@ -1,0 +1,25 @@
+/*
+ * Grid
+ * -------------------------------------------------------------------------- */
+
+$baseline-height: 8px;
+$page-width: 1000px;
+$columns: 16;
+
+
+/*
+ * Colors
+ * -------------------------------------------------------------------------- */
+
+$text-color: #5D5D5D;
+$portrait-color: #134B67;
+$link-color: #E99B21;
+
+
+/*
+ * Typography
+ * -------------------------------------------------------------------------- */
+
+$font-family-base: 'Operator Mono SSm A', 'Operator Mono SSm B', sans-serif;
+$font-size-base: 14px;
+$line-height-base: calc($baseline-height * 3);

@@ -1,0 +1,6 @@
+@import 'variables.scss';
+
+@define-mixin grid $push, $span {
+    margin-left: calc(100% / $columns * $push);
+    max-width: calc(100% / $columns * $span);
+}
