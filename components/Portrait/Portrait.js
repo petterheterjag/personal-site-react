@@ -15,7 +15,7 @@ function Portrait() {
               [0, {opacity: 1.0}],
               [300, {opacity: 0.5}]
             ])} />
-            <img className="Portrait-overlay" src="petter-nilsson-yellow.jpg" width="1000" style={tween(scrollY, [
+            <img className="Portrait-overlay" src="petter-nilsson-salmon.jpg" width="1000" style={tween(scrollY, [
               [0, {opacity: 0.0}],
               [300, {opacity: 1.0}]
             ])} />
