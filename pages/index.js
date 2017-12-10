@@ -53,7 +53,7 @@ export default class extends Component {
 		    <p>
           <a href="https://github.com/petterheterjag/chromatic-sketch">Chromatic Sketch</a> (Sketch plugin)<br />
           <a href="/bike" onClick={Link.handleClick}>Single speed bike</a><br />
-          <a href="/chair" onClick={Link.handleClick}>Plywood chair</a> (WIP)<br />
+          <a href="/chair" onClick={Link.handleClick}>Plywood chair</a><br />
           <a href="https://github.com/petterheterjag/TabBarModule">TabBarModule</a> (Framer module)<br />
           <a href="http://www.psdvalidator.com/">PSD Validator</a> (Validator for PSD files)<br />
           <a href="/marbled-prints" onClick={Link.handleClick}>Marbled Prints</a> (Poster)<br />
