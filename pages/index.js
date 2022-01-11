@@ -40,7 +40,7 @@ export default class extends Component {
               <li>Together with senior management on northstar prototypes to set our long-term vision.</li>
               <li>Led design for the order management experience and the transformation from a tracker app to a shopping companion.</li>
               <li>Rethought our onboarding from scratch and desinged a new progressive experience.</li>
-              <li>Designed an <a href="https://archive.ph/6KqMh">unique gift shopping experience</a>.</li>
+              <li>Designed an <a href="https://shop.app/gift-shop">unique gift shopping experience</a>.</li>
               <li>And a few projects I'm not allowed to talk about yet :)</li>
             </ul>
           </p>
