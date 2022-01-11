@@ -5,5 +5,20 @@
 
   &-title {
     display: block;
+
+    span {
+      margin-right: 12px;
+    }
+  }
+}
+
+.freelance-badge {
+  background-color: hsl(15, 91%, 87%);
+  border-radius: 0px;
+  padding: 0px 6px;
+  display: inline-block;
+
+  a {
+    color: $text-color;
   }
 }

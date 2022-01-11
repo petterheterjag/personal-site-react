@@ -4,10 +4,12 @@ import Link from '../Link';
 
 function Header() {
   return (
-    <h1 className="Header">
-      <a href="/" onClick={Link.handleClick}>Petter Nilsson</a>
-      <span className="Header-title">Digital Product Designer</span>
-    </h1>
+    <div>
+      <h1 className="Header">
+        <a href="/" onClick={Link.handleClick}>Petter Nilsson</a>
+        <div className="Header-title"><span>Designer with 10+ yrs experience</span><span className="freelance-badge"><a href="mailto:petterheterjag@gmail.com">Available as a freelancer</a></span></div>
+      </h1>
+    </div>
   );
 }
 

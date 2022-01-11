@@ -18,12 +18,12 @@ export default class extends Component {
           Having done virtually zero woodworking or physical product design before, the idea to build a chair felt daunting yet exciting.
           To my counter my inexperience, I decided to use birch plywood as the material, 
           and <a href="https://en.wikipedia.org/wiki/CNC_router">CNC routing</a> as the technique to make 
-          the parts needed from my digital sketches. The woodworking required would then be limited to adding finish to the parts and assambling them.
+          the parts needed from my digital sketches. The woodworking required would then be limited to adding finish to the parts and assembling them.
         </p>
 
         <p>
-          After sketching on paper I made a model of the chair in <a href="https://www.autodesk.com/products/autocad/">AutoCAD</a>. 
-          Here're an isometric wireframe of the 3D model as well as renders with texture and lighting:
+          After sketching on paper I made drawings and a 3d model model of the chair in <a href="https://www.autodesk.com/products/autocad/">AutoCAD</a>. 
+          Here're an isometric wireframe of the model as well as renders with texture and lighting:
         </p>
         
         <Image src="chair/wireframe.png" size="large" />

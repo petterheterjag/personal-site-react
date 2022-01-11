@@ -23,7 +23,7 @@ article {
  	opacity: 0;
 }
 
-p, h1, h2 {
+p, h1, h2, h3, ul {
 	font-size: $font-size-base;
 	font-weight: 300;
 	line-height: $line-height-base;
@@ -40,6 +40,11 @@ h2 {
 	margin-top: calc($baseline-height * 2);
 	margin-bottom: calc($baseline-height * 2.5);
 	border-bottom: 1px solid $text-color;
+}
+
+h3 {
+	color: #000;
+	margin-top: 0;
 }
 
 a {
@@ -61,4 +66,20 @@ p {
 		color: #000;
 		font-weight: 300;
 	}
+}
+
+ul {
+	list-style: none;
+	padding-left: 1.2em;
+	text-indent: -1.2em;
+}
+
+li:before {
+  content: "»";
+  padding-right: 0.7em;
+	color: black;
+}
+
+section {
+	margin-bottom: calc($baseline-height * 4);
 }
