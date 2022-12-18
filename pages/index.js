@@ -95,6 +95,7 @@ export default class extends Component {
 		    <p>
           <a href="mailto:petterheterjag@gmail.com">Mail</a><br />
           <a href="https://twitter.com/petterheterjag">Twitter</a><br />
+          <a href="https://masto.ai/@petterheterjag">Mastodon</a><br />
           <a href="https://github.com/petterheterjag">Github</a><br />
 				</p>
 		  </article> 
